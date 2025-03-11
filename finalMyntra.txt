@@ -1,0 +1,45 @@
+project-root/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── middlewares/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Product.js
+│   │   └── Order.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── products.js
+│   │   ├── orders.js
+│   │   └── admin.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+└── frontend/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── Header.js
+    │   │   ├── Footer.js
+    │   │   ├── Home.js
+    │   │   ├── Cart.js
+    │   │   ├── Login.js
+    │   │   ├── Register.js
+    │   │   ├── OrderHistory.js
+    │   │   └── AdminDashboard.js
+    │   ├── context/
+    │   │   ├── AuthContext.js
+    │   │   └── CartContext.js
+    │   ├── routes/
+    │   │   ├── PrivateRoute.jsx
+    │   │   └── AdminRoute.jsx
+    │   ├── styles/
+    │   │   ├── App.css
+    │   │   ├── Cart.css
+    │   │   └── Header.css
+    │   ├── App.js
+    │   └── index.js
+    ├── package.json
+    └── .env
